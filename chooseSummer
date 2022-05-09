@@ -1,0 +1,58 @@
+# ITStudio
+
+<html>
+    <head>
+        <title>
+            4 Seasons CYOA
+        </title>
+    </head>
+
+    <body>
+        <h1>You chose Summer!</h1>
+
+        <p>Now that you've chosen summer, what will you do?</p>
+
+        <a href="CYOA1.html">
+                <input name="summer1b1" type="image" src="imgs/rideboat.png" width="500" height="333">
+                <input Name="summer1b2" type="image" src="imgs/beach.webp" width="500" height="333">
+                <input Name="summer1b3" type="image" src="imgs/pool.jpg" width="500" height="333">
+        </a>
+        
+
+
+
+
+        <style>
+
+            body{
+                background-color: black;
+                text-align: center;
+            }
+
+            h1{
+                text-align: center;
+                color: white;
+            }
+
+            p{
+                text-align: center;
+                color: white;
+            }
+
+        </style>
+        
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
