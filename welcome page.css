@@ -7,3 +7,12 @@ body {
   p {
     color: rgb(255, 0, 0);
   }
+
+  div {
+    display: flex;
+    border: 2px solid rgb(83, 212, 83);
+    flex-direction: row;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    justify-content: space-around;
+  }
