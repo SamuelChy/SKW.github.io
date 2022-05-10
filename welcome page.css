@@ -1,16 +1,16 @@
 body {
-    background-color: rgb(83, 212, 83);
+    background-color: rgb(203, 230, 237);
   }
   h1 {
-    color: rgb(94, 46, 5);
+    color: rgb(114, 9, 9);
   }
   p {
-    color: rgb(255, 0, 0);
+    color: rgb(21, 143, 5);
   }
 
   div {
     display: flex;
-    border: 2px solid rgb(83, 212, 83);
+    border: 2px solid rgb(203, 230, 237);
     flex-direction: row;
     /* flex-direction: column-reverse; */
     /* flex-wrap: wrap-reverse; */
