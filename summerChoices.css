@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(203, 230, 237);
+    text-align: center;
+  }
+  h1 {
+    color: rgb(114, 9, 9);
+    text-align: center;
+  }
+  p {
+    color: rgb(21, 143, 5);
+    text-align: center;
+  }
+
+  p2{
+      text-align: center;
+  }
+  
+  div {
+    display: flex;
+    border: 2px solid rgb(203, 230, 237);
+    flex-direction: row;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    justify-content: space-around;
+  }
