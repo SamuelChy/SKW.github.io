@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(117, 235, 117);
+  }
+  h1 {
+    color: rgb(94, 46, 5);
+  }
+  p {
+    color: rgb(255, 0, 0);
+  }
+
+  
+  
+  .myText {
+    background-color: rgb(252, 225, 105);
+    color: black;
+    padding: 15px 15px 15px 15px;  
+    margin: 0px 20px 20px 0px;
+    text-align: center;
+  }
+
+  .myCode {
+    background-color: rgb(220, 239, 145);
+    color: black;
+    padding: 15px 15px 15px 15px;  
+    margin: 0px 20px 20px 0px;
+
+
+  }
+    
+  
+
+

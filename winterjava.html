@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java1 challenge</title>
+    <link rel="stylesheet" href="winterjava.css">
+</head>
+<body>
+    <div class="myText" style="text-align:center;padding:16px; margin:16px">
+       <strong>Looking at the interesting code below and choose the right answer:</strong>
+    </div>
+    <pre class="myCode">
+        import java.util.Scanner;
+        public class YearOfDays {
+         public static void main(String[] args) {
+           int days;
+           System.out.println("Input start year:");
+           Scanner s = new Scanner(System.in);
+           int y0 = s.nextInt();
+           System.out.println("\nInput end year:");
+           s = new Scanner(System.in);
+           int y1 = s.nextInt();
+           if (y1 > y0) {
+             for (int i = y0; i <= y1; i++) {
+               if ((i % 4 == 0 && i % 100 != 0) || i % 400 == 0) {
+                 days = 366;
+               }
+                 else {
+                   days = 365;
+                 }
+                 System.out.println("Year: " + i + " = " + days);
+               }
+               
+             }
+           else {
+             System.out.println("End year must be greater than first year!");
+           }
+         }
+        
+        }
+</pre>
+
+<div class="myText" style="text-align:left;padding:16px; margin:16px"> 
+    <Strong>If the user enters the following:</Strong> 
+</div>
+
+<div>
+</div>
+
+<div class="myText" style="text-align:left;padding:16px; margin:16px"> 
+    <p>2011</p><br>
+    <p>2014</p> <br>
+</div> 
+
+
+
+
+
+
+    <div><a href="incorrect.html" > A: Year:2011 = 366 Year: 2012 = 366 Year: 2013 = 366 Year: 2014 = 365</a></div>
+    <br>
+    <div><a href="incorrect.html"> B: Year:2011 = 365 Year: 2012 = 365 Year: 2013 = 365 Year: 2014 = 366</a></div> 
+    <br>
+   <div><a href="correct.html"> C: Year: 2011 = 365 Year: 2012 = 366 Year: 2013 = 365 Year: 2014 = 365</a> </div> 
+   <br>
+   <div><a href="incorrect.html"> D: Year: 2011 = 365 Year: 2012 = 365 Year: 2013 = 365 Year: 2014 = 365</a></div> 
+
+
+    
+</body>
+</html>
