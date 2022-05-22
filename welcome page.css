@@ -14,7 +14,7 @@ body {
 
   div {
     display: flex;
-    border: 2px solid rgb(203, 230, 237);
+    border: 2px solid  rgb(217, 239, 244);
     flex-direction: row;
     justify-content: space-around;
 
