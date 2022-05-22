@@ -47,6 +47,13 @@ import java.util.Scanner;
 
 
         }
-    }                
+    }  
+
+/*
+     Enter Year : 2090
+     Enter Month : 12
+     Enter Day : 25
+     Date : 12-25-2090-->359Days
+*/
            
         
