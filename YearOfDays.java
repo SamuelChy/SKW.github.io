@@ -26,3 +26,12 @@ public class YearOfDays {
  }
 
 }
+
+/*    input start year: 2011
+      Input end year: 2014
+
+      Year: 2011 = 365
+      Year: 2012 = 366
+      Year: 2013 = 365
+      Year: 2014 = 365
+*/
