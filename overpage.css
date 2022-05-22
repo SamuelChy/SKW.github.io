@@ -3,4 +3,13 @@ body {
   }
   h1 {
     color: rgb(143, 5, 109);
+    text-align: center;
+  }
+  
+  div {
+    display: flex;
+    border: 2px solid rgb(203, 230, 237);
+    flex-direction: row;
+    justify-content: space-around;
+
   }
