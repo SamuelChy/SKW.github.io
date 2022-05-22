@@ -20,6 +20,6 @@ public class variables{
 }
 
 // Question: If the input is "2 4", what is the output closest to?
-// Answer: The volume of your cone is: 34
+// Answer: The volume of your cone is: The volume of your cone is: 34
 
 
